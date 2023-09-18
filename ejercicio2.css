@@ -1,0 +1,63 @@
+main{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+section{
+    flex: 2;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-right: 20px;
+
+
+}
+ul {
+
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline; /* Para colocar los elementos en línea */
+    margin-right: 10px; /* Espacio entre los enlaces */
+  }
+  
+  a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none; /* Para quitar la línea subrayada */
+  }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+aside {
+    flex: 1;
+    background-color: #ddd;
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
